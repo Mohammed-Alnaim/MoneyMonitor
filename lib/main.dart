@@ -13,6 +13,8 @@ import 'package:flutter/material.dart';
   // make the process of adding a new entry as easy as possible like making all options be clicked and not typed (such as the amount(find a way to make this easy), the currency can be pre selected)
   // MAKE THE UI MODERN AND GOOD LOOKING
 
+  // hard idea::::::
+  // see the possibilty of adding an api for different bank accounts such as alrajhi so that the data can be logged automatically
 
 
 class MoneyMonitorApp extends StatefulWidget {
