@@ -12,6 +12,9 @@ import 'package:flutter/material.dart';
   // make other tabs for the filter options
   // make the process of adding a new entry as easy as possible like making all options be clicked and not typed (such as the amount(find a way to make this easy), the currency can be pre selected)
   // MAKE THE UI MODERN AND GOOD LOOKING
+  // make use of this API to add all currencies https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies.json 
+  // add a feature to add a new category
+  // add a feature to add a favorite currencies and default currency so that currencies cam always be converted to the default currency
 
   // hard idea::::::
   // see the possibilty of adding an api for different bank accounts such as alrajhi so that the data can be logged automatically
@@ -24,13 +27,16 @@ class MoneyMonitorApp extends StatefulWidget {
 
 class _MoneyMonitorAppState extends State<MoneyMonitorApp> {
   final List<Map<String, dynamic>> spendingOptions = [
-    {"icon": Icons.fastfood, "label": "Food & Dining"},
-    {"icon": Icons.shopping_cart, "label": "Shopping"},
-    {"icon": Icons.directions_car, "label": "Transportation"},
-    {"icon": Icons.receipt, "label": "Bills"},
-    {"icon": Icons.movie, "label": "Entertainment"},
-    {"icon": Icons.health_and_safety, "label": "Healthcare"},
-    {"icon": Icons.school, "label": "Education"},
+    {"icon": Icons.fastfood, "label": "Food"},
+    {"icon": Icons.shopping_cart, "label": "Beverage"},
+    {"icon": Icons.directions_car, "label": "Groceries"},
+    {"icon": Icons.receipt, "label": "Coffee"},
+    {"icon": Icons.movie, "label": "Shopping"},
+    {"icon": Icons.health_and_safety, "label": "Desert"},
+    {"icon": Icons.school, "label": "Gas"},
+    {"icon": Icons.more_horiz, "label": "Laundry"},
+    {"icon": Icons.more_horiz, "label": "Barber"},
+    {"icon": Icons.more_horiz, "label": "Bills"},
     {"icon": Icons.more_horiz, "label": "Other"},
   ];
   final List<String> currencies = ["SAR", "USD", "EUR", "TRY", "Other"];
