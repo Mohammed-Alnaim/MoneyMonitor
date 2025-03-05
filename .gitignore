@@ -48,3 +48,13 @@ android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
 ios/Runner/GeneratedPluginRegistrant.h
 ios/Runner/GeneratedPluginRegistrant.m
 macos/Flutter/GeneratedPluginRegistrant.swift
+.dart_tool/package_config_subset
+.dart_tool/package_config_subset
+.dart_tool/package_config.json
+macos/Flutter/GeneratedPluginRegistrant.swift
+ios/Runner/GeneratedPluginRegistrant.m
+ios/Runner/GeneratedPluginRegistrant.h
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+.dart_tool/dartpad/web_plugin_registrant.dart
+.dart_tool/package_config.json
+.dart_tool/package_config_subset
