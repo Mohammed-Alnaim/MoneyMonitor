@@ -28,7 +28,7 @@ runApp(
       primaryColor: const Color(0xFF179C3D),
       scaffoldBackgroundColor: Colors.grey[100],
     ),
-    home: Scaffold(body: HomeScreen()),
+    home: const Scaffold(body: HomeScreen()),
   ),
 );
 
