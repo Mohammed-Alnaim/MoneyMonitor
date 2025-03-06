@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:moneymonitor/screens/home_screen.dart';
 
   //FEATURE IDEAS
   // display the total amount spent in the selected currency
@@ -17,7 +18,7 @@ import 'package:flutter/material.dart';
 
   // hard idea::::::
   // see the possibilty of adding an api for different bank accounts such as alrajhi so that the data can be logged automatically
-import 'package:moneymonitor/home_screen.dart';
+
 
 
 void main() {
