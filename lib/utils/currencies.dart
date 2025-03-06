@@ -337,6 +337,5 @@ const Map<String, String> currencyMap =
 	"zmk": "Zambian Kwacha",
 	"zmw": "Zambian Kwacha",
 	"zwd": "Zimbabwean Dollar",
-	"zwg": "",
 	"zwl": "Zimbabwean Dollar"
 };

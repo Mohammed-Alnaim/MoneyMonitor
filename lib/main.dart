@@ -30,6 +30,10 @@ runApp(
     home: Scaffold(body: HomeScreen()),
   ),
 );
+
+// call a url and append the json to firebase.
+
+
 }
 
 
