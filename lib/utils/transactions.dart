@@ -2,7 +2,8 @@ class Transaction {
   final DateTime timeStamp;
   final String category;
   final double amount;
-  final double currency;
+  final String currency;
+  final bool isIncome;
   
 
   Transaction({
@@ -10,5 +11,6 @@ class Transaction {
     required this.category,
     required this.amount,
     required this.currency,
+    required this.isIncome, required String name,
   });
 }
