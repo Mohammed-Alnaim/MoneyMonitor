@@ -58,3 +58,4 @@ android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
 .dart_tool/dartpad/web_plugin_registrant.dart
 .dart_tool/package_config.json
 .dart_tool/package_config_subset
+lib/firebase_options.dart
