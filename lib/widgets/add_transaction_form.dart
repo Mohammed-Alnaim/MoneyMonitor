@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class AddTransactionForm extends StatefulWidget {
   final Function(String, double, bool) onAddTransaction;
   
-  const AddTransactionForm({required this.onAddTransaction, Key? key}) : super(key: key);
+  const AddTransactionForm({required this.onAddTransaction, super.key});
 
   @override
   _AddTransactionFormState createState() => _AddTransactionFormState();

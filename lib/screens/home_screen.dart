@@ -12,7 +12,7 @@ import '../widgets/balance_overview_card.dart';
 import '../widgets/recent_transactions.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   _HomeScreenState createState() => _HomeScreenState();
